@@ -22,6 +22,6 @@ Host-only模式：
 Virtualbox在宿主机中模拟出一张专供虚拟机使用的网卡，所有虚拟机都是连接到该网卡上的，虚拟机可以通过该网卡IP访问宿主机，同时Virtualbox提供一个DHCP服务，虚拟机可以获得一个内部网IP，宿主机可以通过该IP访问虚拟机。如果单纯使用Host-only模式，则虚拟机不能连接外部公共网络。
 
 1.安装系统时需要联网,先配置一个nat网卡保证安装能正常进行。  
-![](https://images0.cnblogs.com/blog2015/545411/201505/061646030792094.jpg)  
+<img src="https://images0.cnblogs.com/blog2015/545411/201505/061646030792094.jpg" width="50%" height="50%">  
 2.nat模式下物理机是不能发现虚拟机的存在的，需要添加一块host only网卡来实现互访。  
-![](https://images0.cnblogs.com/blog2015/545411/201505/061653364859041.jpg)
+<img src="https://images0.cnblogs.com/blog2015/545411/201505/061653364859041.jpg" width="50%" height="50%">  
