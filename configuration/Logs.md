@@ -21,10 +21,8 @@ Host-only模式：
 
 Virtualbox在宿主机中模拟出一张专供虚拟机使用的网卡，所有虚拟机都是连接到该网卡上的，虚拟机可以通过该网卡IP访问宿主机，同时Virtualbox提供一个DHCP服务，虚拟机可以获得一个内部网IP，宿主机可以通过该IP访问虚拟机。如果单纯使用Host-only模式，则虚拟机不能连接外部公共网络。
 
-1.安装系统时需要联网,先配置一个nat网卡保证安装能正常进行。  
-<img src="https://images0.cnblogs.com/blog2015/545411/201505/061646030792094.jpg" width="50%" height="50%">  
-2.nat模式下物理机是不能发现虚拟机的存在的，需要添加一块host only网卡来实现互访。  
-<img src="https://images0.cnblogs.com/blog2015/545411/201505/061653364859041.jpg" width="50%" height="50%">  
+1.安装系统时需要联网,先配置一个nat网卡保证安装能正常进行。  	
+2.nat模式下物理机是不能发现虚拟机的存在的，需要添加一块host only网卡来实现互访。   
 
 ## install MySql
 https://blog.csdn.net/weixin_42266606/article/details/80879571
@@ -41,6 +39,37 @@ grep(global search rgular expression(RE) and print out the line):是一种强大
 状态 systemctl status NAME -l  
 *通过 vi /etc/sysconfig/iptables 命令编辑防火墙，添加端口*  
 
-## How to use SQLyog.
+## request没有getContextPath()方法是因为未导入tomcat lib依赖  
+## phpmyadmin创建外键约束，1. 两个表都为InnoDB引擎 2. 父表字段为主键  
+Config the database in IDEA intellij  
+1.Windows下
+
+启动服务
+mysqld --console　　
+或　　net start mysql　　
+关闭服务
+mysqladmin -uroot shudown　　
+或　　net stop mysql　　
+ 
+
+2.Linux下
+
+启动服务
+service mysql start　　　
+关闭服务
+service mysql stop　　
+重启服务
+service restart stop  
+
+Cannot resolve table 'blog' 解决办法，点击persistence，*Assign Data Sources*  
+*数据库访问deny是因为persistence.xml文件中配置的hibernate密码不正确*  
+**tomcat部署的时候去掉url中的war_exploded包括application context:**  
+使用redirect：要允许浏览器重定向  
+删除数据表中的数据 让主键id 从1开始自增  
+1 方式一  
+清空表数据并且将主键自增长从1开始(1.先清空表数据2.在把表的自增长设置为1)  
+DELETE FROM user;  
+ALTER TABLE user AUTO_INCREMENT=1;  
+
 
 
