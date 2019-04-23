@@ -61,6 +61,8 @@ service mysql stop　　
 重启服务
 service restart stop  
 
+*JDK包含JRE，而JRE包含JVM*
+
 Cannot resolve table 'blog' 解决办法，点击persistence，*Assign Data Sources*  
 *数据库访问deny是因为persistence.xml文件中配置的hibernate密码不正确*  
 **tomcat部署的时候去掉url中的war_exploded包括application context:**  
@@ -70,6 +72,12 @@ Cannot resolve table 'blog' 解决办法，点击persistence，*Assign Data Sour
 清空表数据并且将主键自增长从1开始(1.先清空表数据2.在把表的自增长设置为1)  
 DELETE FROM user;  
 ALTER TABLE user AUTO_INCREMENT=1;  
+<c>标签：在jsp中使用了jstl语法，可以方便地进行一些判断<c:if>与遍历操作<c:forEach>  
+	使用import java.sql.Date; in BlogEntity.java  
+
+安装yum -y install java-1.8.0-openjdk*  
+
+
 
 
 
