@@ -1,0 +1,4 @@
+com\firstmvc\model\BlogEntity.class
+com\firstmvc\repository\UserRepository.class
+com\firstmvc\controller\MainController.class
+com\firstmvc\model\UserEntity.class
