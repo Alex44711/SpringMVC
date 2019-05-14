@@ -38,4 +38,38 @@
 - add updateUser in MainController
 - blog management same as user management
 
+### 7. screenshots
+- welcomePage
+
+<img src="https://github.com/Alex44711/SpringMVC/blob/master/screenshots/welcomePage.png" width="50%" height="50%">
+
+- addUser
+
+<img src="https://github.com/Alex44711/SpringMVC/blob/master/screenshots/addUser.png" width="50%" height="50%">
+
+- updateUserInformation
+
+<img src="https://github.com/Alex44711/SpringMVC/blob/master/screenshots/updateUserInformation.png" width="50%" height="50%">
+
+- userDetail
+
+<img src="https://github.com/Alex44711/SpringMVC/blob/master/screenshots/userDetail.png" width="50%" height="50%">
+
+- userManagement
+
+<img src="https://github.com/Alex44711/SpringMVC/blob/master/screenshots/userManagement.png" width="50%" height="50%">
+
+- blogManagement
+
+<img src="https://github.com/Alex44711/SpringMVC/blob/master/screenshots/blogManagement.png" width="50%" height="50%">
+
+-addBlog
+
+<img src="https://github.com/Alex44711/SpringMVC/blob/master/screenshots/addBlog.png" width="50%" height="50%">
+
+- modifyBlog
+
+<img src="https://github.com/Alex44711/SpringMVC/blob/master/screenshots/modifyBlogs.png" width="50%" height="50%">
+
+
 
