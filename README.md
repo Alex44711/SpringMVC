@@ -63,7 +63,7 @@
 
 <img src="https://github.com/Alex44711/SpringMVC/blob/master/screenshots/blogManagement.png" width="50%" height="50%">
 
--addBlog
+- addBlog
 
 <img src="https://github.com/Alex44711/SpringMVC/blob/master/screenshots/addBlog.png" width="50%" height="50%">
 
