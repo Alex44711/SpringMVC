@@ -39,7 +39,8 @@ grep(global search rgular expression(RE) and print out the line):是一种强大
 状态 systemctl status NAME -l  
 *通过 vi /etc/sysconfig/iptables 命令编辑防火墙，添加端口*  
 
-## request没有getContextPath()方法是因为未导入tomcat lib依赖  
+## request没有getContextPath()方法是因为未导入tomcat lib依赖
+File-> project structure-> modules-> dependency-> add library
 ## phpmyadmin创建外键约束，1. 两个表都为InnoDB引擎 2. 父表字段为主键  
 Config the database in IDEA intellij  
 1.Windows下
