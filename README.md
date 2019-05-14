@@ -1,6 +1,7 @@
 # SpringMVC Blog manamgement web application
 ## package *configuration* contains the problems encountered
 ## package *springmcvDemo* contains the sources code
+## package *screenshots* contains the web application screenshot
 ### 1. Related environment
 + Intellij IDEA 2013.3.5 Ultimate
 + Tomcat 8.5.38
